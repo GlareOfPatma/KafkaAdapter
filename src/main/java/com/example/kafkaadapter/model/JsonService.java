@@ -29,7 +29,5 @@ public class JsonService {
                 .contentType(ContentType.JSON)
                 .when().get()
                 .then().statusCode(200).extract().asString();
-
     }
-
 }
